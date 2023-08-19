@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(240,240,240);
+
+}
+.container-in{
+    border:1px solid black ;
+    height: 40vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap:20px ;
+    width: 30% ;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+
+.one-one{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.one-one input[type ="text"]{
+ border: 1px solid black;
+ border-radius: 5px;
+ padding-left: 10px;
+ height: 30px;
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ 
+}
+.two-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.two-two input[type ="password"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.three-three{
+width: 80%;
+display: flex;
+justify-content: flex-start;
+}
+.four-four {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+.four-four button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color:white ;
+    width: 80%
+}
+
+
+
